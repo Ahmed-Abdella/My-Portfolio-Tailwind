@@ -5,19 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>My Portfolio</title>
   </head>
-  <body class="bg-slate-200 px-24 lg:px-8">
-    <header class="flex items-baseline pt-6">
+  <body class="bg-gray-100 px-16 lg:px-8">
+    <header class="flex items-baseline pt-4">
       <h1 class="text-2xl font-bold">Ahmed Abdella</h1>
       <ul class="py-0 flex ml-auto [&_li]:ml-6 hover:[&_li]:underline">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="font-semibold"><a href="#">Contact</a></li>
       </ul>
     </header>
-    <main></main>
+    <main class="px-20">
+      <section
+        class="mt-10 py-20 grid grid-cols-2 gap-10 items-center justify-center"
+      >
+        <div class="flex flex-col justify-center items-start">
+          <h1 class="text-5xl">
+            <span class="block">Hello!,</span>
+
+            I'm Ahmed Abdella
+          </h1>
+
+          <p class="mt-6 text-lg">
+            I'm a front-end developer with a passion for building web apps. I
+            use React.js with either JavaScript or TypeScript as my main stack.
+            I also have experience with Next.js, TailwindCSS, and some other
+            libraries
+          </p>
+
+          <div class="mt-4 [&_a]:text-3xl [&_a]:text-gray-800 [&_a]:mr-3">
+            <a href="https://www.linkedin.com/in/ahmed-abdella-262761211/"
+              ><i
+                class="fa-brands fa-linkedin hover:text-blue-700 transition duration-100"
+              ></i
+            ></a>
+            <a href="https://github.com/Ahmed-Abdella"
+              ><i
+                class="fa-brands fa-github hover:text-black transition duration-100"
+              ></i
+            ></a>
+            <a href="https://twitter.com/Ahmedabdella987"
+              ><i
+                class="fa-brands fa-twitter hover:text-sky-500 transition duration-100"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="w-96"></div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
