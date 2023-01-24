@@ -22,7 +22,9 @@
       </ul>
     </header>
     <main class="px-20">
-      <section class="grid grid-cols-2 gap-14 pt-20 pb-4">
+      <section
+        class="grid grid-cols-2 gap-14 pt-20 pb-4 items-center justify-center"
+      >
         <div class="flex flex-col items-start lg:col-span-2">
           <h1 class="text-5xl">
             <span class="block">Hello!,</span>
@@ -50,7 +52,7 @@
             ></a>
             <a href="https://github.com/Ahmed-Abdella"
               ><i
-                class="fa-brands fa-github hover:text-stone-500 transition duration-100"
+                class="fa-brands fa-github hover:text-black transition duration-100"
               ></i
             ></a>
             <a href="https://twitter.com/Ahmedabdella987"
@@ -62,7 +64,7 @@
         </div>
 
         <div
-          class="[&_img]:w-16 flex flex-col gap-2 items-center justify-center"
+          class="[&_img]:w-16 flex flex-col gap-2 items-center lg:col-span-2"
         >
           <div class="col-span-2">
             <img src="./images/react.svg" class="" />
@@ -80,10 +82,21 @@
           <div class="col-span-2"><img src="./images/next.svg" /></div>
         </div>
         <div class="col-span-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-          perspiciatis qui inventore deserunt vitae laudantium voluptatem nemo
-          quibusdam consequatur. Consectetur suscipit, nisi aspernatur veritatis
-          assumenda aliquid perferendis voluptatem! Sed, optio!
+          <div
+            class="flex items-center flex-wrap [&_span]:py-1 [&_span]:px-2 [&_span]:my-1 [&_span]:bg-gray-300 [&_span]:ml-1 [&_span]:rounded"
+          >
+            Skills:
+
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React.js</span>
+            <span>Next.js</span>
+            <span>CSS, TailwindCSS</span>
+            <span>Web Design rules</span>
+            <span>Design Patterns</span>
+            <span>OOP</span>
+            <span>Algrothims & Data Structure</span>
+          </div>
         </div>
       </section>
     </main>
