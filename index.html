@@ -15,31 +15,34 @@
     <title>My Portfolio</title>
   </head>
   <body class="bg-gray-100 px-16 lg:px-8">
-    <header class="flex items-baseline pt-4">
+    <header class="flex items-center pt-4 px-8">
       <h1 class="text-2xl font-bold">Ahmed Abdella</h1>
       <ul class="py-0 flex ml-auto [&_li]:ml-6 hover:[&_li]:underline">
-        <li class="font-semibold"><a href="#">Contact</a></li>
+        <li class="font-semibold"><a href="#">Blog</a></li>
       </ul>
     </header>
     <main class="px-20">
-      <section
-        class="mt-10 py-20 grid grid-cols-2 gap-10 items-center justify-center"
-      >
-        <div class="flex flex-col justify-center items-start">
+      <section class="grid grid-cols-2 gap-14 pt-20 pb-4">
+        <div class="flex flex-col items-start lg:col-span-2">
           <h1 class="text-5xl">
             <span class="block">Hello!,</span>
 
-            I'm Ahmed Abdella
+            I'm Ahmed Abdella.
           </h1>
 
-          <p class="mt-6 text-lg">
+          <p class="mt-3 text-lg">
             I'm a front-end developer with a passion for building web apps. I
             use React.js with either JavaScript or TypeScript as my main stack.
             I also have experience with Next.js, TailwindCSS, and some other
-            libraries
+            libraries.
           </p>
 
-          <div class="mt-4 [&_a]:text-3xl [&_a]:text-gray-800 [&_a]:mr-3">
+          <div
+            class="mt-6 [&_a]:text-3xl [&_a]:text-gray-700 [&_a]:mr-6 flex items-center"
+          >
+            <span class="mr-10 font-semibold text-sky-600"
+              >Contact: &rarr;</span
+            >
             <a href="https://www.linkedin.com/in/ahmed-abdella-262761211/"
               ><i
                 class="fa-brands fa-linkedin hover:text-blue-700 transition duration-100"
@@ -47,18 +50,41 @@
             ></a>
             <a href="https://github.com/Ahmed-Abdella"
               ><i
-                class="fa-brands fa-github hover:text-black transition duration-100"
+                class="fa-brands fa-github hover:text-stone-500 transition duration-100"
               ></i
             ></a>
             <a href="https://twitter.com/Ahmedabdella987"
               ><i
-                class="fa-brands fa-twitter hover:text-sky-500 transition duration-100"
+                class="fa-brands fa-twitter hover:text-sky-600 transition duration-100"
               ></i
             ></a>
           </div>
         </div>
 
-        <div class="w-96"></div>
+        <div
+          class="[&_img]:w-16 flex flex-col gap-2 items-center justify-center"
+        >
+          <div class="col-span-2">
+            <img src="./images/react.svg" class="" />
+          </div>
+
+          <div>
+            <div class="inline-block mr-20">
+              <img src="./images/javascript.svg" />
+            </div>
+            <div class="inline-block">
+              <img src="./images/typescript.svg" />
+            </div>
+          </div>
+
+          <div class="col-span-2"><img src="./images/next.svg" /></div>
+        </div>
+        <div class="col-span-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          perspiciatis qui inventore deserunt vitae laudantium voluptatem nemo
+          quibusdam consequatur. Consectetur suscipit, nisi aspernatur veritatis
+          assumenda aliquid perferendis voluptatem! Sed, optio!
+        </div>
       </section>
     </main>
     <footer></footer>
