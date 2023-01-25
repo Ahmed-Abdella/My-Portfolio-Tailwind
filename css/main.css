@@ -641,6 +641,10 @@ video {
   border-width: 2px;
 }
 
+.border-t-2 {
+  border-top-width: 2px;
+}
+
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
@@ -651,9 +655,29 @@ video {
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
 }
 
+.border-sky-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(2 132 199 / var(--tw-border-opacity));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-sky-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(186 230 253 / var(--tw-bg-opacity));
+}
+
+.bg-sky-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
+}
+
+.bg-sky-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 249 255 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -728,6 +752,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -750,6 +784,18 @@ video {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-2xl {
@@ -803,6 +849,16 @@ video {
 .text-sky-700 {
   --tw-text-opacity: 1;
   color: rgb(3 105 161 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -1051,6 +1107,10 @@ video {
   margin-top: 1rem;
 }
 
+.\[\&\>\*\]\:ml-2>* {
+  margin-left: 0.5rem;
+}
+
 .\[\&\>\*\]\:text-sky-500>* {
   --tw-text-opacity: 1;
   color: rgb(14 165 233 / var(--tw-text-opacity));
@@ -1066,6 +1126,23 @@ video {
   color: rgb(2 132 199 / var(--tw-text-opacity));
 }
 
+.hover\:\[\&\>\*\]\:text-gray-800>*:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
 .hover\:\[\&\>\*\]\:underline>*:hover {
   text-decoration-line: underline;
+}
+
+.\[\&\:not\(\:last-child\)\]\:mr-2:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.\[\&_\:not\(\:last-child\)\]\:mr-2 :not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.\[\&\>\:not\(\:last-child\)\]\:mr-2>:not(:last-child) {
+  margin-right: 0.5rem;
 }
